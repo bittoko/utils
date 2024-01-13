@@ -1,0 +1,5 @@
+[dependencies]
+base = "0.10.2"
+sha2 = "0.0.4"
+xtended-numbers = "0.2.1"
+map = "9.0.1"
