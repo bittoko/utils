@@ -7,6 +7,10 @@ module {
   
   public type Fees = C.Fees;
 
+  public type Return = C.Return;
+
+  public type Error = C.Error;
+
   public type State = S.State;
 
   public let { Fees } = C;
