@@ -1,9 +1,9 @@
-import C "Class";
-import S "State";
+import C "class";
+import S "state";
 
 module {
 
-  public type Fee = S.Fee;
+  public type Fee = C.Fee;
   
   public type Fees = C.Fees;
 

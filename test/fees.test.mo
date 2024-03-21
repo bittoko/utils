@@ -3,7 +3,8 @@ import { Fees } "../src";
 
 suite("Fee Class Methods", func(){
 
-  let state = Fees.State.init([("dfx_test_key", 10_000_000)]);
+  let params : Fees.State.InitParams = {fees = [("dfx_test_key", 10_000_000)]};
+  let state = Fees.State.init(params);
   let fees = Fees.Fees(state);
 
   test("get() - existing", func() {
