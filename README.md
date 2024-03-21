@@ -6,6 +6,9 @@ A collection of helpful class objects.
 mops add utilities
 ```
 
+## Changelog
+Version 2.0.0 - Adds Cycles class and Ledger methods
+
 ## Usage
 ```motoko
 import Utilities "mo:utilities";
