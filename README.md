@@ -7,7 +7,7 @@ mops add utilities
 ```
 
 ## Changelog
-Version 2.0.0 - Adds Cycles class and Ledger methods
+Version 2.0.0 - Adds Cycles class and Ledger methods; Breaking changes to State type and methods for all modules
 
 ## Usage
 ```motoko
