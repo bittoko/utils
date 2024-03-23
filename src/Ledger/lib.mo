@@ -17,6 +17,10 @@ module {
 
   public type AccountIdentifier = T.AccountIdentifier;
 
+  public type Tokens = T.Tokens;
+
+  public let { Interface } = T;
+
   public module Subaccount = {
     
     public let { nat_to_subaccount = from_nat } = Address;
