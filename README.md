@@ -7,6 +7,7 @@ mops add utilities
 ```
 
 ## Changelog
+Version 2.0.1 - Adds missing State module for Cycles; Adds missing Ledger module to lib.mo
 Version 2.0.0 - Adds Cycles class and Ledger methods; Breaking changes to State type and methods for all modules
 
 ## Usage

@@ -1,9 +1,12 @@
 import T "types";
 import C "class";
+import S "state";
 
 module {
 
   public type State = T.State;
+
+  public let State = S;
 
   public type Cycles = T.Cycles;
 

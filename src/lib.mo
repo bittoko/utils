@@ -5,6 +5,8 @@ import L "Ledger";
 
 module {
 
+  public let Ledger = L;
+
   public type Cycles = C.Cycles;
 
   public let Cycles = C;
